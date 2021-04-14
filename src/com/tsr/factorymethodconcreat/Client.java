@@ -6,6 +6,7 @@ public class Client {
 		
 		Shape shape = ShapeFactoryStatic.getShapeObject("circle");
 		shape.shape();
+		System.out.println("ok");
 	}
 
 }

@@ -4,7 +4,7 @@ public class ShapeFactoryStatic {
 	
 	public static Shape getShapeObject(String name) {
 		
-		if(name == null)
+		if(name == null) 
 			return null;
 		else if(name.equalsIgnoreCase("CIRCLE"))
 			return new Circle();
